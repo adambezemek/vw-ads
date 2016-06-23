@@ -13,9 +13,6 @@ function startAd() {
 
     addEventListeners();
     animate();
-    window.setInterval(function(){
-        animate();
-    }, 9100);
 }
 
 function addEventListeners() {
@@ -28,18 +25,17 @@ function clickthrough() {
 
 function animate() {
     $(document).ready(function() {
-        $('#cta-1').slideFadeToggle();
+        setTimeout(function() {
+            $('#cta-1').slideFadeToggle(650);
+        }, 500);
         setTimeout(function(){
             $('#cta-1').hide();
-            $('#cta-2').slideFadeToggle();
+            $('#cta-2').slideFadeToggle(650);
         }, 3000);
         setTimeout(function(){
             $('#cta-2').hide();
-            $('#cta-3').slideFadeToggle();
-        }, 6000);
-        setTimeout(function(){
-            $('#cta-3').hide();
-        }, 9000);
+            $('#cta-3').slideFadeToggle(650);
+        }, 5500);
     });
 }
 
