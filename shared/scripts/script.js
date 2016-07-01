@@ -21,6 +21,7 @@ function addEventListeners() {
 
 function clickthrough() {
     EB.clickthrough();
+    window.location.href = 'https://www.virtuwell.com';
 }
 
 function animate() {
