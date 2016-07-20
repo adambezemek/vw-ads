@@ -5,7 +5,7 @@ body {
 #ad {
     display: block;
     overflow: hidden;
-    width: 300px;
+    width: 160px;
     height: 600px;
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
@@ -17,23 +17,23 @@ body {
 #banner {
     position: absolute;
     display: block;
-    width: 300px;
+    width: 160px;
     height: 600px;
-    background: #FFF url("../images/bg.jpg") no-repeat;
+    background: #FFF url("bg.jpg") no-repeat;
     background-size: contain;
     overflow: hidden;
 }
 .cta-container {
-    width: 300px;
+    width: 160px;
     margin: 0 auto;
     position: relative;
-    top: 375px;
+    top: 370px;
 }
 .cta-image {
-    width: 300px;
+    width: 160px;
     margin: 0 auto;
     display: none;
 }
 .cta-image img {
-    width: 300px;
+    width: 160px;
 }

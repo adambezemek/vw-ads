@@ -19,7 +19,7 @@ body {
     display: block;
     width: 300px;
     height: 250px;
-    background: #FFF url("../images/bg.jpg") no-repeat;
+    background: #FFF url("bg.jpg") no-repeat;
     background-size: contain;
     overflow: hidden;
 }
