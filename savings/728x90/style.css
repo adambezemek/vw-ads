@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+#ad {
+    display: block;
+    overflow: hidden;
+    width: 729px;
+    height: 90px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+#banner {
+    position: absolute;
+    display: block;
+    width: 728px;
+    height: 90px;
+    background: #FFF url("bg.jpg") no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.cta-container {
+    width: 264px;
+    position: relative;
+    top: 30px;
+}
+.cta-image {
+    width: 220px;
+    margin: 0 auto;
+    display: none;
+}
+.cta-image img {
+    width: 220px;
+}
