@@ -35,7 +35,7 @@ function flipBack() {
 function animate() {
     setTimeout(function() {
         flip()
-    }, 1200);
+    }, 3000);
 }
 
 window.addEventListener("load", initEB);
