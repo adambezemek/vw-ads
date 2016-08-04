@@ -24,18 +24,14 @@ function clickthrough() {
     window.location.href = 'https://www.virtuwell.com';
 }
 
-function flip() {
-    document.querySelector("#ad").className = "flip-container flip";
-}
-
-function flipBack() {
-    document.querySelector("#ad").className = "flip-container";
-}
 
 function animate() {
-    setTimeout(function() {
-        flip()
-    }, 3000);
+    $(document).ready(function() {
+        $("#ad").flip({trigger: 'manual', axis: 'x'}).show();
+        setTimeout(function() {
+            $("#ad").flip(true);
+        }, 2000)
+    });
 }
 
 window.addEventListener("load", initEB);
