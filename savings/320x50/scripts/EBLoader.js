@@ -1,5 +1,5 @@
 function loadServingSysScript(relativeUrl) {
-    document.write("<script src='" + (document.location.protocol === "https:" ? "https://secure-" : "https://") + "ds.serving-sys.com/BurstingScript/" + relativeUrl + "'><\/script>");
+    document.write("<script src='https://secure-ds.serving-sys.com/BurstingScript/EBLoader.js'><\/script>");
 }
 
 //Load secure or insecure version of EBLoader
