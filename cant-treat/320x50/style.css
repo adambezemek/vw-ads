@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 #vw-ad {
+    display: none;
     width: 320px;
     height: 50px;
 }

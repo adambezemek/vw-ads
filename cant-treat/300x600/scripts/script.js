@@ -9,7 +9,7 @@ $(document).ready(function () {
     }
 
     function animate() {
-        $("#vw-ad").flip({trigger: 'manual'});
+        $("#vw-ad").flip({trigger: 'manual'}).show();
         setTimeout(function () {
             $("#vw-ad").flip(true);
         }, 2000)

@@ -8,7 +8,7 @@ $(document).ready(function () {
     }
 
     function animate() {
-        $("#vw-ad").flip({trigger: 'manual', axis: 'x'});
+        $("#vw-ad").flip({trigger: 'manual', axis: 'x'}).show();
         setTimeout(function () {
             $("#vw-ad").flip(true);
         }, 2000)
