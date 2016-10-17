@@ -7,21 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>virtuwell can't treat: 160x600</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/jquery/2_1_4/jquery-2.1.4.min.js"></script>
-    <script src="scripts/jquery.flip.min.js"></script>
     <script src="scripts/EBLoader.js"></script>
-    <script src="scripts/script.js"></script>
+    <script>
+        var clickTag = "https://www.virtuwell.com";
+    </script>
 </head>
 
 <body>
-<div id="ad" style="display:none">
+<div id="vw-ad">
     <div class="front">
-        <img src="whatIf.jpg">
+        <a href="javascript:window.open(window.clickTag)">
+            <img src="whatIf.jpg">
+        </a>
     </div>
     <div class="back">
-        <img src="dontPay.jpg">
+        <a href="javascript:window.open(window.clickTag)">
+            <img src="dontPay.jpg">
+        </a>
     </div>
 </div>
+<script src="scripts/jquery-2.1.4.min.js"></script>
+<script src="scripts/jquery.flip.min.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 
 </html>
